@@ -95,3 +95,28 @@ footer {
     font-size: 1.8rem;
   }
 }
+.centered-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  text-align: left;
+}
+
+.centered-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.centered-section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #0077b6;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
